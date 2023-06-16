@@ -1,0 +1,96 @@
+body{
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    font-family: 'Barrio', cursive; 
+    color:white;
+}
+
+h1{
+    margin-top: 1px;
+    color:black;
+    background-color: rgb(39, 167, 139);
+    height: 60px;
+    box-shadow:5px 5px 5px grey;
+}
+
+#sketch_name{
+  font-family: 'Barrio', cursive;
+}
+
+#show_sketch{
+  float:right;
+}
+
+.copy_right_footer {
+    position: fixed;
+    font-family: 'Barrio', cursive;
+    font-size: 30px;
+    color: white;
+    bottom: 0;
+    width: 20%;
+    margin-bottom: 15px;
+    box-shadow: 10px 10px 10px rgb(21, 107, 108);
+    background-color: rgb(39, 167, 139);
+    line-height: 2;
+    text-align: center;
+ }
+
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top: 60px; 
+    margin-bottom: 0px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(39, 167, 139);}
+  to {box-shadow: 1px 1px 38px rgb(16, 83, 84);}
+
+}
+
+
+p, span{
+    font-family: 'Barrio', cursive;
+    padding-top:10px;
+    font-size:25px;
+    
+  }
+
+#score{
+  font-size:35px;
+  margin-left: 20px;
+  background-color: rgb(21, 107, 108);
+}
+
+#time{
+  font-size:35px;
+  float: right;
+  background-color: rgb(21, 107, 108);
+  margin-right: 20px;
+}
+
+.Mostrar{
+    color:white;
+    background-color: rgb(21, 107, 108);
+    margin-top: 8px;
+    margin-right: 7px;
+}
+
+#score,#time {
+    box-shadow:5px 5px 5px grey;
+    border-radius: 20px; 
+}
+
+.random {
+    background-color: rgb(21, 107, 108);
+    font-size:20px;
+    box-shadow:5px 5px 5px grey;
+    border-radius: 20px;  
+}
